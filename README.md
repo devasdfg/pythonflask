@@ -23,12 +23,12 @@ docker build -t flask-bullseye -f Dockerfile.bullseye .
 
 ### Alpine-based Container
 ```bash
-docker run -p 5000:5000 flask-alpine
+docker run -p 5001:5001 flask-alpine
 ```
 
 ### Bullseye-based Container
 ```bash
-docker run -p 5000:5000 flask-bullseye
+docker run -p 5001:5001 flask-bullseye
 ```
 
 ## Accessing the Application
